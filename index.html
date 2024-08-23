@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">HuhhH</a>
+        <nav>
+            <a href="#" id="aboutMeButton" class="active">Addicted</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="https://i.giphy.com/hECJDGJs4hQjjWLqRV.webp" alt="Cat Image">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Fanta</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>HELP</p>
+            <div class="social-icons">
+                <a href="https://github.com/pu571" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/p0xha_?igsh=dzU3NHpiNG9hN3Fv&utm_source=qr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://open.spotify.com/user/31a5sixqjbuitzs2ksyekncmlzni?si=a1eb8c72ea524860" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+            </div>
+            <a href="#" class="btn" id="catButton">I love cat</a>
+            <button class="btn" id="clickMeButton">Click me</button>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('catButton').addEventListener('click', function(event) {
+            event.preventDefault();
+            window.open('https://media.tenor.com/T2sgUDZt6CcAAAAM/hi-hello.gif', '_blank');
+        });
+
+        document.getElementById('clickMeButton').addEventListener('click', function() {
+            window.open('https://i.giphy.com/l0ExdMHUDKteztyfe.webp');
+        });
+    </script>
+</body>
+</html>
